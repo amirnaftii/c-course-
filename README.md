@@ -3,4 +3,4 @@
 
 
 ## notes :
-I am still testing features, this code is not completed yet.
+I am currently testing Github features, This file contains some random conditions, loops, and a few basics of C++ writing syntax.
