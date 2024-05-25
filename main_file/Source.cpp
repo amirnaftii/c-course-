@@ -9,35 +9,36 @@
 
 using std::cout;
 using std::endl;
-//
+
 
 
 int main() 
 {
-
+//local variables :
 int x=10 ;
 int i=0 ;
-
+int j ;
+//how to write (in/de)crements , (pos/pre)fix :
  x++ ; //increment
  x-- ; //decrement 
- //++i ; //prefix
- //i++ ; //postfix
+ ++i ; //prefix
+ i++ ; //postfix
 
-//conditions :
+//I)conditions :
+
 /*we can write if condition in one ligne like this*/
  (x>=5)?cout<<"x is bigger than 5\n ":cout<<"not\n";
-/*
- if () 
-  { cout<<"msg"<<endl; }
-  else if ()
-  { cout<<"msg"<<endl; }
-  else () 
-  {cout<<"msg"<<endl;}
-} 
+//1) if-else if-else : 
 
-*/
-
-//
+ if (x==0) 
+  { cout<<"msg1"<<endl; }
+  else if (x<=5)
+  { cout<<"msg2"<<endl; }
+  else (x>=20) 
+  { cout<<"msg3"<<endl; }
+  
+   
+//2)switch-case-default :
  switch(x) {
   case 3 :
    cout<<"not equal to\n";
@@ -48,20 +49,20 @@ int i=0 ;
   default : 
   cout<<"error\n" ; 
  }
-//loops:
+//II)loops:
+//1)for:
 for (i=0;i<4;++i)
 {
  cout<<i<<":for loop\n"<<endl;
 }
-/*
-int j ;
+//reverse-order-for:
 for(j=3;j>0;)
 {
   cout<< j <<" : reverse for loop\n" <<endl;
   j--;
 }
+//2)while :
 
-*/
 
 return 0;
 }
